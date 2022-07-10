@@ -69,7 +69,7 @@ p {
     margin-left: 25px;
 }
 
-content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -86,7 +86,7 @@ aside {
     background-color: #2589bd;
 }
 
-.lead, .brand, .cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -96,13 +96,13 @@ h3 {
     text-align: center;
 }
 
-.lead img, .brand img, .cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-section {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -118,6 +118,7 @@ section img {
 
 section h2 {
     font-size: 36px;
+    margin-bottom: 20px;
 }
 
 footer {
