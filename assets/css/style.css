@@ -20,10 +20,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* span class used to make only the "seo" part a different color in the heading */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navbar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,27 +52,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-}
-
-.hero img {
-    height: 100%;
-    width: 100%;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Main body content */
 main {
     width: 75%;
     display: inline-block;
@@ -86,22 +68,6 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 main section {
@@ -123,6 +89,11 @@ section h2 {
     margin-bottom: 20px;
 }
 
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 footer {
     padding: 30px;
     clear: both;
@@ -132,4 +103,36 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.hero img {
+    height: 100%;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }

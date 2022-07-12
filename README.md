@@ -11,25 +11,30 @@ Going through the starter code, I was able to pinpoint a couple changes I would 
 * Consolidate CSS properties and selectors because there were lots of similar rules
 * Add accessible alt attributes
 
-Applying HTML semantic tags instead of using ```<div>``` tags allows the reader and myself to understand what each section of my code is. For example, instead of using ```<div class="header">```, I can just use the ```<header>``` tag. This also makes the code more accessible and 
+Applying HTML semantic tags instead of using ```<div>``` tags allows the reader and myself to understand what each section of my code is. For example, instead of using ```<div class="header">```, I can just use the ```<header>``` tag.
 
+Instead of having multiple selectors and repeating the same styles for each one, I was able to consolidate them. This makes my code easier to read while also making it easier to maintain if I need to make any changes. Instead of changing multiple selectors in CSS, I can just edit one selector.
 
+One of the easier edits was adding alt attributes to all the images. This is important in case an image is not abled to be viewed by the user.
 
-I learned
+I enjoyed the project because I was able to learn the difference between a section and an aside. 
 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In order to install my project you need:
+
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+I could not screenshot the whole website how I like it so it had to be chopped in three parts. The site looks exactly the same as the starter code so all that was changed was making the code more accessible and nicer. Also making the navbar links all work to navigate to the correct section.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![website top page with navbar and image](assets/images/screenshot1.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![middle of the page](assets/images/screenshot2.png)
+
+![bottom page with footer](assets/images/screenshot3.png)
 
 ## Deployed Site
+https://gt1222.github.io/Challenge1/
