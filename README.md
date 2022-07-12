@@ -17,14 +17,7 @@ Instead of having multiple selectors and repeating the same styles for each one,
 
 One of the easier edits was adding alt attributes to all the images. This is important in case an image is not abled to be viewed by the user.
 
-I enjoyed the project because I was able to learn the difference between a section and an aside. 
-
-
-## Installation
-
-In order to install my project you need:
-
-
+I enjoyed the project because I was able to learn many different things and expand my knowledge of HTML and CSS. I was able to play around with grouping selectors and how I wanted my selectors to be grouped. Being able to test it out and see which grouping worked and which didn't allowed me to learn the reasons why and how I could improve the codes.
 
 ## Usage
 
